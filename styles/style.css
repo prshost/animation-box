@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Tahoma;
+    direction: rtl;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+input {
+    font-family: Tahoma;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 2rem auto;
+}
+.content {
+    position: relative;
+    width: 100%;
+}
+section {
+    width: 300px;
+    height: 250px;
+    margin: 1rem;
+}
+section { background-color: #aad1ff; } 
+
+.container div {
+    position: absolute;
+    background-color: #ffb8b8;
+    transition: .5s;
+}
